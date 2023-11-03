@@ -1,10 +1,10 @@
-const options = {
-    method: 'GET',
-    headers: {
-        'X-RapidAPI-Key': 'b45e96323fmshf5e4bc50d3b8a90p1e091djsnfb21cde4eb87',
-        'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
-    }
-};
+// const options = {        // API
+//     method: 'GET',
+//     headers: {
+//         'X-RapidAPI-Key': 'b45e96323fmshf5e4bc50d3b8a90p1e091djsnfb21cde4eb87', // API-KEY
+//         'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+//     }
+// };
 
 const getWeather = (city)=> {
     cityName.innerHTML = city
